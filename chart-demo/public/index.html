@@ -1,0 +1,34 @@
+<!--
+ * @Author: zyy 1741540959@qq.com
+ * @Date: 2023-02-24 21:06:01
+ * @LastEditors: zyy
+ * @LastEditTime: 2023-02-24 21:13:44
+ * @Description: file content
+-->
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- CDN JS -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.2.0/vue-router.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.4/axios.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- 引入echarts，故在window全局对象中存在echarts对象 -->
+    <script src="./static/lib/echarts.min.js"></script>
+    <!-- 引入主题文件 -->
+    <script src="./static/theme/chalk.js"></script>
+    <script src="./static/theme/vintage.js"></script>
+  </body>
+</html>
