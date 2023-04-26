@@ -8,4 +8,4 @@ vue2、websocket、webpack、koa2
 
 ### 功能特点
 
-通过websocket实现实时数据传输和一端操作多端联动效果，配合echarts使用多图表来试试反馈平台数据。
+通过websocket实现实时数据传输和一端操作多端联动效果，配合echarts使用多图表来反馈平台数据。
